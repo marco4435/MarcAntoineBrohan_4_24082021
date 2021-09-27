@@ -206,10 +206,15 @@ footer div i:hover {
 
 /* Part 3 */
 .part3 {
-  height: 45rem;
+  height: 65rem;
   background: url(img/image-de-presentation.avif) 50% center/100% no-repeat;
   background-size: cover;
   text-align: center;
+}
+@media (min-width: 300px) {
+  .part3 {
+    height: 55rem;
+  }
 }
 @media (min-width: 768px) {
   .part3 {
@@ -274,9 +279,14 @@ footer div i:hover {
   }
 }
 .part4 figure {
-  padding: 0 1rem 4rem 1rem;
+  padding: 0 1rem 9rem 1rem;
   text-align: center;
   width: 80%;
+}
+@media (min-width: 300px) {
+  .part4 figure {
+    padding: 0 1rem 6rem 1rem;
+  }
 }
 @media (min-width: 768px) {
   .part4 figure {
