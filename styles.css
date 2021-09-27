@@ -55,7 +55,7 @@ header div .nav li a:hover {
 
 /* Footer */
 footer {
-  background-color: #F3976C;
+  background-color: #BD460F;
   height: 10rem;
 }
 footer p {
@@ -81,7 +81,7 @@ footer div i:hover {
 
 /* Button */
 .btn-contact {
-  background: #F3976C;
+  background: #BD460F;
   border: none;
   box-shadow: 0 1px 3px rgba(0, 0, 1, 0.25), inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
   border-radius: 2.5rem;
@@ -134,7 +134,7 @@ footer div i:hover {
   margin: 1.5rem 0 2.5rem 0;
 }
 .part1 div figcaption h1 {
-  color: #F3976C;
+  color: #BD460F;
   font-size: 3rem;
 }
 
@@ -352,7 +352,7 @@ footer div i:hover {
 }
 
 .close-lightbox {
-  background-color: #F3976C;
+  background-color: #BD460F;
   border: solid black;
   color: black;
 }
@@ -383,7 +383,7 @@ footer div i:hover {
   }
 }
 .part5 h2 {
-  color: #F3976C;
+  color: #BD460F;
   font-size: 2.25rem;
   margin: 0 0 1rem 0;
 }
@@ -412,7 +412,7 @@ footer div i:hover {
 }
 .contact button {
   margin-left: 2.3rem;
-  background-color: #F3976C;
+  background-color: #BD460F;
   color: white;
   font-family: "helvetica";
 }
