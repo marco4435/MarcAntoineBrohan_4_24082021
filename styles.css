@@ -62,7 +62,7 @@ footer p {
   display: flex;
   justify-content: center;
   padding: 1rem 0;
-  color: white;
+  color: black;
 }
 footer div {
   display: flex;
@@ -135,7 +135,7 @@ footer div i:hover {
   margin: 1.5rem 0 2.5rem 0;
 }
 .part1 div figcaption h1 {
-  color: white;
+  color: #BD460F;
   font-size: 3rem;
 }
 
@@ -384,7 +384,7 @@ footer div i:hover {
   }
 }
 .part5 h2 {
-  color: white;
+  color: #BD460F;
   font-size: 2.25rem;
   margin: 0 0 1rem 0;
 }
