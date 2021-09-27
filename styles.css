@@ -126,6 +126,10 @@ footer div i:hover {
     padding: 7rem 0;
   }
 }
+.part1 div img {
+  height: 100px;
+  width: 100px;
+}
 .part1 div figcaption {
   margin: 1.5rem 0 2.5rem 0;
 }
