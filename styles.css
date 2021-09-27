@@ -99,7 +99,7 @@ footer div i:hover {
 /* Part 1 */
 .part1 {
   background-attachment: scroll;
-  background-image: url(img/la-chouette-agence-banniere.jpg);
+  background-image: url(img/la-chouette-agence-banniere.avif);
   background-position-x: center;
   height: 30rem;
 }
@@ -206,7 +206,7 @@ footer div i:hover {
 /* Part 3 */
 .part3 {
   height: 45rem;
-  background: url(img/image-de-presentation.jpg) 50% center/100% no-repeat;
+  background: url(img/image-de-presentation.avif) 50% center/100% no-repeat;
   background-size: cover;
   text-align: center;
 }
