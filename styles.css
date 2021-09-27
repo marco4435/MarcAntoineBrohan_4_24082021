@@ -168,6 +168,10 @@ footer div i:hover {
     width: 33%;
   }
 }
+.part2 div figure #test {
+  height: 100px;
+  width: 130px;
+}
 .part2 div figure img {
   border-color: #364577;
   color: #364577;
