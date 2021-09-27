@@ -1,0 +1,51 @@
+.contact{
+    h1{
+    color:$black;
+    font-family:"helvetica";
+    font-size:2rem;
+    font-weight:700;
+    text-align:center;
+    margin-bottom:5rem;
+    }
+    label{
+        margin-left:2.3rem;
+        @media(min-width:768px){
+            margin-left:20%;
+        }
+    }
+    input, select, textarea{
+        margin-bottom:2rem;
+    }
+    button{
+        margin-left:2.3rem;
+        background-color:$orange;
+        color:$white;
+        font-family:"helvetica";
+        @media(min-width:768px){
+            margin-left:20%;
+        }
+    }
+    p{
+        padding-top:1rem;
+        margin-left:2.3rem;
+        @media(min-width:768px){
+            margin-left:20%;
+        }
+    }
+    a{
+        margin-left:2.3rem;
+        margin:1rem 0 0 2.3rem;
+        @media(min-width:768px){
+            margin-left:20%;
+        }
+    }
+    .form-control{
+        width:60%;
+        min-width:25rem;
+        max-width:50rem;
+        margin-left:1rem;
+        @media(min-width:768px){
+            margin-left:20%;
+        }
+    }
+}

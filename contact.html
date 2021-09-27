@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>La chouette agence.</title>
+    <meta name="description" content="La chouette agence, l’entreprise de web design basée à Lyon qui propose la création de site internet sur mesure grâce à des webdesigners créatifs. 
+	Notre agence accompagne les entreprise dans leur stratégie web, crée une identité visuelle pour ses clients et peut envisager la refonte de site internet.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/89bca5afd6.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+	<header>
+		<div>
+			<img src="img/la-chouette-agence.png" alt="Logo de La chouette agence."/>
+			<button type="button" data-toggle="collapse" data-target="#menu"><i class="fas fa-bars"></i></button>
+			<ul class="nav">
+				<li><a href="index.html" title="Lien vers la page d'accueil.">Accueil</a></li>
+			</ul>
+		</div>
+		<div id="menu" class="collapse">
+			<ul>
+				<li><a href="index.html" title="Lien vers la page d'accueil.">Accueil</a></li>
+			</ul>
+		</div>
+	</header>
+	<main class="contact">
+		<h1>Parlons web design !</h1>
+		<form class="form-group">
+			<label for="exampleFormControlInput1">Prénom NOM</label>
+			<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Prénom NOM">
+			<label for="exampleFormControlInput2">Courriel</label>
+			<input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+			<label for="exampleFormControlSelect3">Comment nous avez-vous connu ?</label>
+    		<select class="form-control" id="exampleFormControlSelect3">
+      			<option>Publicité</option>
+      			<option>Recommandation par un tier.</option>
+      			<option>Recherche internet.</option>
+      			<option>Salon du web design.</option>
+      			<option>Autre</option>
+			</select>
+			<label for="exampleFormControlTextarea4">Si autre, précisez :</label>
+			<textarea class="form-control" id="exampleFormControlTextarea4" rows="3"></textarea>
+			<label for="exampleFormControlTextarea5">Brief de votre projet (Ajoutez autant de détails que nécessaire) :</label>
+			<textarea class="form-control" id="exampleFormControlTextarea5" rows="3"></textarea>
+			<button type="submit" class="btn">Envoyer</button>
+		</form>
+		<p>Voici nos coordonnées :</p>
+		<a href="mailto:contact@lachouetteagence.com" title="Ouverture de votre messagerie.">contact@lachouetteagence.com</a>
+		<p>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi.</p>
+	</main>
+	<footer>
+		<p>La chouette agence - Agence web basée à Lyon.</p>
+		<div>
+			<a href="#" title="Lien vers notre compte Twitter."><i class="fab fa-twitter col-3"></i></a>
+			<a href="#" title="Lien vers notre compte Facebook."><i class="fab fa-facebook-f col-3"></i></a>
+			<a href="#" title="Lien vers un réseau social."><i class="fab fa-dribbble col-3"></i></a>
+			<a href="#" title="Lien vers notre compte Instagram."><i class="fab fa-instagram col-3"></i></a>
+		</div>
+	</footer>
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/jqBootstrapValidation.js"></script>
+	<script src="./js/blocs.js"></script>
+	<script src="./js/jquery.touchSwipe.js"></script>
+	<script src="./js/gmaps.js"></script>
+	<script src="./js/formHandler.js"></script> 
+</body>
+</html>

@@ -1,0 +1,16 @@
+/* Button */
+.btn-contact{
+    background:$orange;
+    border:none;
+    box-shadow:0 1px 3px rgb(0 0 1 / 25%), inset 0 1px 0 0 rgb(255 255 255 / 15%);
+    border-radius:2.5rem;
+    color:$white;
+    font-size:1.7rem;
+    font-weight:700;
+    padding:1rem 2rem;
+    width:13rem;
+    &:hover{
+        background:$orange2;
+        transition:all 0.3s ease-in-out;
+    }
+}
