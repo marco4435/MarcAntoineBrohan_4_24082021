@@ -276,6 +276,7 @@ footer div i:hover {
   align-items: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 @media (min-width: 768px) {
   .part4 div {
@@ -285,6 +286,7 @@ footer div i:hover {
 }
 .part4 figure {
   padding: 0 1rem 9rem 1rem;
+  max-width: 30rem;
   text-align: center;
   width: 80%;
 }
@@ -371,6 +373,8 @@ footer div i:hover {
   background-color: #BD460F;
   border: solid black;
   color: black;
+  position: absolute;
+  right: -1px;
 }
 
 .lightbox-caption {
@@ -378,6 +382,11 @@ footer div i:hover {
   font-size: 1.5rem;
   font-weight: 400;
   margin: 1rem 0;
+}
+
+.img-responsive {
+  height: 40rem;
+  width: 40rem;
 }
 
 /* Part 5 */
